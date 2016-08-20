@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<include file="Public/head" />
+</head>
+<body>
+<include file="Public/frame" />
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">修改管理者信息</span></div>
+        </div>
+        <div class="result-wrap">
+ <form class="form-horizontal" action="__ROOT__/Admin/User/update" method="post">
+    <table class="search-tab" width="100%">
+        <tr>
+            <th width="80px"><b>姓名</b></th>
+            <td>
+                <input class="text" type="text" name="name" value="{$data['name']}" style="width:300px;height:25px">
+            </td>
+        </tr>
+        <tr>
+            <th width="80px"><b>密码</b></th>
+            <td>
+                <input class="password" type="password" name="password" value="{$data['password']}" style="width:300px;height:25px">
+            </td>
+        </tr>
+        <tr>
+            <th width="80px"><b>邮箱</b></th>
+            <td>
+                <input class="email" type="email" name="email" value="{$data['email']}" style="width:300px;height:25px">
+            </td>
+        </tr>
+        <tr>
+            <th width="80px"></th>
+            <td>
+              <input type="hidden" value="{$data['id']}" name="id" />
+            </td>
+        </tr>
+        
+            <th></th>
+            <td>
+                <input class="btn btn-success" type="submit" value="提交">
+            </td>
+        </tr>
+    </table>
+</form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<include file="Public/head" />
+</head>
+<body>
+<include file="Public/frame" />
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">碎语碎语列表</span></div>
+        </div>
+        <div class="search-wrap">
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            <th width="5%">ID</th>
+                            <th >文章</th>
+                            <th width="12%">时间</th>
+                            <th width="15%">操作</th>
+                        </tr>
+                        <volist id="v" name="data">  
+                        <tr>
+                            <td class="tc"><input name="id[]" value="59" type="checkbox"></td>
+                            <td width="5%">{$v.id}</td>
+                            <td title="发哥经典"><a target="_blank" href="#" title="发哥经典">{$v.content}</a> …
+                            </td>
+                            <td>{$v.time}</td>
+                            <td>
+                                <a class="link-update" href="__URL__/edit/id/{$v.id}">修改</a>
+                                <a class="link-del" href="__URL__/del/id/{$v.id}">删除</a>
+                            </td>
+                        </tr>
+                        </volist>
+                    </table>
+                    <div class="list-page"> {$page}</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

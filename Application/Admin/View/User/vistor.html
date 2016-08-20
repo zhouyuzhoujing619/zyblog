@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<include file="Public/head" />
+</head>
+<body>
+<include file="Public/frame" />
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">浏览者信息列表</span></div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>ID</th>
+                            <th>姓名</th>
+                            <th>密码</th>
+                            <th>邮箱</th>
+                            <th>身份</th>
+                        </tr>
+                        <volist id="v" name="data">
+                        <tr>
+                            <td>{$v.id}</td>
+                            <td>{$v.name}</td>
+                            <td>{$v.password}</td>
+                            <td>{$v.email}</td>
+                            <td>浏览者</td>
+                        </tr>
+                        </volist>
+                    </table>
+                    <div class="list-page"> 2 条 1/1 页</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

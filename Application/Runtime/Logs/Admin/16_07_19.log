@@ -1,0 +1,1985 @@
+[ 2016-07-19T19:08:54+08:00 ] ::1 /zyblog/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.370021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.370021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.060003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.060003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2016-07-19T19:09:00+08:00 ] ::1 /zyblog/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:09:08+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0770s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 13 行.
+SQL: SELECT `id`,`fenlei`,`time`,`author`,`title`,`zhaiyao`,`content` FROM `articlelist` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0450s ]
+SQL: SELECT * FROM `articlelist`  [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:13:17+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `articlelist` WHERE ( status=1 ) LIMIT 1  
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `articlelist` WHERE ( status=1 ) LIMIT 1  
+
+[ 2016-07-19T19:13:38+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `articlelist` WHERE ( status=1 ) LIMIT 1  
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `articlelist` WHERE ( status=1 ) LIMIT 1  
+
+[ 2016-07-19T19:14:28+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-19T19:15:10+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 23 行.
+
+[ 2016-07-19T19:15:12+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 23 行.
+
+[ 2016-07-19T19:15:28+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 13 行.
+SQL: SELECT `id`,`fenlei`,`time`,`author`,`title`,`zhaiyao`,`content` FROM `articlelist` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `articlelist`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:19:54+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 13 行.
+SQL: SELECT `id`,`fenlei`,`time`,`author`,`title`,`zhaiyao`,`content` FROM `articlelist` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `articlelist`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:27:58+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `articlelist` WHERE ( board =  ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `articlelist` WHERE ( board =  ) LIMIT 0,5  
+
+[ 2016-07-19T19:28:30+08:00 ] ::1 /zyblog/Admin/Article/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:28:36+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-19T19:28:40+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:29:21+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T19:29:45+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:29:49+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:29:56+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 24 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:32:44+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:33:36+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T19:33:39+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T19:33:47+08:00 ] ::1 /zyblog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:34:13+08:00 ] ::1 /zyblog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate D:\www\zyblog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\zyblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `articlelist` (`fenlei`,`title`,`author`,`zhaiyao`,`content`) VALUES ('学习','萨达都是帆布和','发给','腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌','&lt;p&gt;腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌腹股沟管灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌&lt;/p&gt;') [ RunTime:0.0620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:34:15+08:00 ] ::1 /zyblog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:34:16+08:00 ] ::1 /zyblog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T19:34:19+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:34:28+08:00 ] ::1 /zyblog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-19T19:34:50+08:00 ] ::1 /zyblog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate D:\www\zyblog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\zyblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `articlelist` (`fenlei`,`title`,`author`,`zhaiyao`,`content`) VALUES ('生活','法国人突然','突然','日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英','&lt;p&gt;日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英日本天天天天天天天天天天天天跳跳糖和预警机狙击精英&lt;/p&gt;') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T19:34:52+08:00 ] ::1 /zyblog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:34:57+08:00 ] ::1 /zyblog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:35:42+08:00 ] ::1 /zyblog/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate D:\www\zyblog\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\www\zyblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `articlelist` (`fenlei`,`title`,`author`,`zhaiyao`,`content`) VALUES ('生活','三星级爱课程快速登录','发到发发','木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打','&lt;p&gt;木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打木莫高窟购票啪啪啪啪啪啪啪啪啪啪啪啪法律懂了吗vvvvvvvvvvvvvvvvvdsl 屡屡防盗门丽都饭店卢浮宫的看了看发大理石绿没法打&lt;/p&gt;') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T19:35:45+08:00 ] ::1 /zyblog/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:35:49+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 10,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:35:52+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T19:35:55+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:35:58+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 10,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:36:01+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T19:36:41+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:45:13+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:47:09+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T19:47:12+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-19T19:47:15+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 10,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:47:18+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:47:37+08:00 ] ::1 /zyblog/index.php/Admin/Article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articlelist` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `articlelist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\ArticleController.class.php 第 14 行.
+SQL: SELECT * FROM `articlelist` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 117 行.
+NOTIC: [8] Undefined variable: vo D:\www\zyblog\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T19:58:21+08:00 ] ::1 /zyblog/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2016-07-19T20:16:18+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant Comment - assumed 'Comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `comment`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T20:16:40+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Comment - assumed 'Comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `comment`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:17:06+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant Comment - assumed 'Comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `comment`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:18:52+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T20:19:43+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T20:20:51+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:22:45+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:22:48+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 5,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:22:51+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:31:06+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T20:32:43+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:32:46+08:00 ] ::1 /zyblog/index.php/Admin/Comment/fabiao/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0110s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} )' at line 1
+ [ SQL语句 ] : UPDATE `comment` SET `quanxian`='1' WHERE ( id={$v.id} )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} )' at line 1
+ [ SQL语句 ] : UPDATE `comment` SET `quanxian`='1' WHERE ( id={$v.id} )
+
+[ 2016-07-19T20:33:48+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-19T20:34:41+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:34:42+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T20:34:50+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:34:51+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:35:00+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:35:03+08:00 ] ::1 /zyblog/index.php/Admin/Comment/fabiao/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 19 行.
+SQL: UPDATE `comment` SET `quanxian`='1' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:35:05+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:35:33+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T20:35:37+08:00 ] ::1 /zyblog/index.php/Admin/Comment/fabiao/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 19 行.
+SQL: UPDATE `comment` SET `quanxian`='1' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:35:45+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:36:53+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T20:36:59+08:00 ] ::1 /zyblog/index.php/Admin/Comment/fabiao/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0130s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 19 行.
+SQL: UPDATE `comment` SET `quanxian`='1' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:37:01+08:00 ] ::1 /zyblog/index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 10 行.
+SQL: SELECT * FROM `comment` ORDER BY id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:50:28+08:00 ] ::1 /zyblog/index.php/Admin/Comment/huifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-19T20:50:41+08:00 ] ::1 /zyblog/index.php/Admin/Comment/huifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:50:57+08:00 ] ::1 /zyblog/index.php/Admin/Comment/huifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 32 行.
+NOTIC: [8] Undefined index: huifu D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `comment`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:50:59+08:00 ] ::1 /zyblog/index.php/Admin/Comment/huifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 32 行.
+NOTIC: [8] Undefined index: huifu D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0050s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `comment`  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:51:20+08:00 ] ::1 /zyblog/index.php/Admin/Comment/huifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 32 行.
+NOTIC: [8] Undefined index: huifu D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `comment`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 101 行.
+NOTIC: [8] Undefined index: fenlei D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 107 行.
+NOTIC: [8] Undefined index: title D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 113 行.
+NOTIC: [8] Undefined index: author D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 130 行.
+NOTIC: [8] Undefined index: comment D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-19T20:51:56+08:00 ] ::1 /zyblog/index.php/Admin/Comment/huifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 32 行.
+NOTIC: [8] Undefined index: huifu D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `comment`  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 101 行.
+NOTIC: [8] Undefined index: fenlei D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 107 行.
+NOTIC: [8] Undefined index: title D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 113 行.
+NOTIC: [8] Undefined index: author D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 130 行.
+NOTIC: [8] Undefined index: comment D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:52:47+08:00 ] ::1 /zyblog/index.php/Admin/Comment/huifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 32 行.
+NOTIC: [8] Undefined index: huifu D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `comment`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `comment` () VALUES () [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 101 行.
+NOTIC: [8] Undefined index: fenlei D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 107 行.
+NOTIC: [8] Undefined index: title D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 113 行.
+NOTIC: [8] Undefined index: author D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 130 行.
+NOTIC: [8] Undefined index: comment D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-19T20:54:40+08:00 ] ::1 /zyblog/index.php/Admin/Comment/huifu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 32 行.
+NOTIC: [8] Undefined index: huifu D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 33 行.
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 34 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `comment`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\zyblog\Application\Admin\Controller\CommentController.class.php 第 36 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\zyblog\ThinkPHP\Library\Think\Db\Driver.class.php 第 802 行.
+SQL: INSERT INTO `comment` () VALUES () [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 101 行.
+NOTIC: [8] Undefined index: title D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 108 行.
+NOTIC: [8] Undefined index: comment D:\www\zyblog\Application\Runtime\Cache\Admin\a256a55505eb8db366baf075d759da54.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
